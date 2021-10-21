@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>PSL - Javascript Tasks</title>
+		<link href="../style.css" rel="stylesheet" type="text/css"/>
+		<script src="script.js"></script>
+	</head>
+	<body>		
+		<div class="row">
+			<div class ="column left">
+				<a href = "../MainPage.html">Home</a><br>
+				<h3>Interests</h3>
+				<a href = "../blacksmithing/Blacksmithing.html">Blacksmithing</a><br>
+				<a href = "../music/Music.html">Music</a><br>
+				<a href = "../pets/Pets.html">Pets</a><br>
+				<a href = "../videogames/VideoGames.html">Video Games</a><br>
+				<h3>Home Learning Tasks</h3>
+				<a href = "../cyberthreats/CyberThreats.html">Cyber Threats</a><br>
+				<a href = "../techmedia/TechMedia.html">Technology Media</a><br>
+				<a href = "../javascripttasks/JavascriptTasks.html">Javascript Tasks</a><br>
+				<h3>Other</h3>
+				<a href = "../testpage/TestPage.html">Test Page</a><br>
+			</div>			
+			<div class="column right">
+			<h1>Javascript Tasks</h1>
+			<img src="jslogo.png" width="300" height="300" class="center">	
+			<h2>Task 1: 6 Times Table</h2>
+			<p>(Task in console)</p>
+			<hr>			
+			<h2>Task 2: Voting Age</h2>
+			<form>
+				What is your age?
+				<input type = "number" name = "age" id = "age">
+				<button type = "button" onclick = "CheckAge()">Check Age</button>
+			</form>
+			<hr>
+			<h2>Task 3: Time & Date Button</h2>
+			<button type = "button"	onclick = "Time()">Click for time and date</button>
+			<p id="time"></p>
+			<hr>
+			<h2>Task 4: User Greeting</h2>
+			<form>
+				What is your name?
+				<input type = "text" name = "firstname" id = "firstname">
+				<input type = "text" name = "lastname" id = "lastname">
+				<button type = "button" onclick = "Greeting()">Greet Me!</button>
+				</form>
+			<hr>
+			<h2>Task 5: RGB Selector</h2>
+			<div id = "colourbox">
+			</div>
+			<form>
+				R: 
+				<input type = "number" id = "red" value = "0"><br>
+				G:
+				<input type = "number" id = "grn" value = "0"><br>
+				B:
+				<input type = "number" id = "blu" value = "0"><br>
+				<button type = "button" onclick = "SetColour()">Generate</button>
+			</div>
+		</div>
+	</body>
+</html>
